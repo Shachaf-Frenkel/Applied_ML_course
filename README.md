@@ -7,7 +7,9 @@ This machine learning project aimed at forecasting patient readmission rates uti
 The performance of four ensemble algorithms: LightGBM, XGBoost, RandomForest, and CatBoost, is compared within this work.
 
 ## Code Overview
-The code consists of three main files: classes.py, pre_processing.py, and hyperparameter_tuning_and_evaluation.py, each serving distinct purposes in the framework of the project.
+The code consists of four main files: EDA_final.ipynb, classes.py, pre_processing.py, and hyperparameter_tuning_and_evaluation.py, each serving distinct purposes in the framework of the project.
+
+**EDA_final.ipynb** contains the split of the original dataset into train and test set, and the exploratory data analysis we perform over the train set.
 
 In **classes.py,** custom transformer classes are defined using sklearn base classes to match sklearn pipelines and offer flexibility in data preprocessing, tailored to the specific requirements of the dataset. These transformers include dropping features based on variance, grouping of similar categories, and more.
 
