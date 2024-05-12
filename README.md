@@ -1,5 +1,6 @@
 # Predicting Diabetes Patients' Early Readmission using ML models
-Applied Machine Learning Course Weizmann
+Applied Machine Learning for Life Sciences, Weizmann Insitute of Science. 
+Course Lecture Ortal Dayan
 
 Our project for Predicting Diabetes Patients Early Readmission using ML models by Roni Weinfeld, Maya Sheffer, Thea Meimoun and Shachaf Frenkel
 
