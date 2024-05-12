@@ -1,10 +1,12 @@
-## Predicting Diabetes Patients' Early Readmission using ML models
-# Applied Machine Learning for Life Sciences, Weizmann Insitute of Science - Course Lecturer Ortal Dayan.
- 
+# Predicting Diabetes Patients Early Readmission using ML models
+Roni Weinfeld, Maya Sheffer, Thea Meimoun and Shachaf Frenkel
 
+## Project Description
+This project was conducted as part of the course Applied Machine Learning for Life Sciences, Weizmann Insitute of Science - course lecturer Ortal Dayan.
+This machine learning project aimed at forecasting patient readmission rates utilizing the 'Diabetes 130-US Hospitals for Years 1999-2008'. 
+The performance of four ensemble algorithms: LightGBM, XGBoost, RandomForest, and CatBoost, is compared within this work.
 
-Our project for Predicting Diabetes Patients Early Readmission using ML models by Roni Weinfeld, Maya Sheffer, Thea Meimoun and Shachaf Frenkel
-
+## Code Overview
 The code consists of three main files: classes.py, pre_processing.py, and hyperparameter_tuning_and_evaluation.py, each serving distinct purposes in the framework of the project.
 
 In **classes.py,** custom transformer classes are defined using sklearn base classes to match sklearn pipelines and offer flexibility in data preprocessing, tailored to the specific requirements of the dataset. These transformers include dropping features based on variance, grouping of similar categories, and more.
